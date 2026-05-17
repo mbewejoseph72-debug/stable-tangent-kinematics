@@ -1,7 +1,7 @@
 """
 Stable Tangent Kinematics
-Numerically robust SAS triangle solver and planar robotics library.
-Powered by Direct Tangent Identities.
+Numerically robust SAS triangle solver using Direct Tangent Identities.
+Author: Joseph Mbewe
 """
 
 from .core import direct_tan, sas_angle
@@ -20,6 +20,4 @@ __all__ = [
     "DirectTangentAngle"
 ]
 
-# Optional welcome message when imported
-if __name__ != "__main__":
-    print(f"✅ Stable Tangent Kinematics v{__version__} loaded successfully!")
+print(f"✅ Stable Tangent Kinematics v{__version__} loaded successfully!")
